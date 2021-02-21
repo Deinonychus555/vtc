@@ -1,39 +1,59 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+
+.grid {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  
 }
 
-.main {
-  padding: 5rem 0;
-  flex: 1;
+
+.section{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin: 3rem 2rem;
+  flex-wrap: wrap;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section.reverse{
+  flex-direction: row-reverse  
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.content{
+  background: #d4eefc; /*#f0f9ff;*/
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  margin:0 3rem 1rem 3rem;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width: auto;
+  min-width:45%;
+  flex: 0.5
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content header{
+  text-align: center;
 }
+
+.image{
+  flex: 0.5;
+  height:auto;
+  box-shadow: 10px 10px 5px grey
+}
+
+.image.big{
+  width: 800px;
+}
+
+.image.small{
+  width: 400px;
+}
+
 
 .title a {
   color: #0070f3;
@@ -71,14 +91,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
+
 
 .card {
   margin: 1rem;
@@ -116,7 +129,55 @@
 
 @media (max-width: 600px) {
   .grid {
-    width: 100%;
     flex-direction: column;
   }
+
+  .section.reverse{
+    flex-direction: row;  
+  }
+
+  .section{
+    margin-bottom: 1rem;
+  }
+
+  .content{
+    margin-bottom: 1rem;
+  }
+
+  .main{
+    padding-left:10rem;
+  }
+
+  .main header{
+    padding: auto, 1.rem 
+  }
+
+  h1 p.description {
+    font-size: 1.2rem;
+    padding: 0rem 0rem 
+  }
+
+  .image{
+    height:auto;
+    box-shadow: 5px 5px 3px grey
+  }
+
+  .image.big{
+    width: 350px;
+  }
+
+  .image.small{
+    width: 350px;
+  }
+  
+  .content{
+    margin: 1rem;
+    min-width: 95%;
+  }  
+
+  .section{
+    margin: 0 0 1rem 0;
+  }
+
+
 }

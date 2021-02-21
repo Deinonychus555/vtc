@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    position: fixed;
+    top: 1;
+    width: 100%;
+    padding: 2px 15px 2px 5px;
+    height: 65px;
+    z-index: 1;
+    justify-content:space-between;
+    background-color: #0090d9;
+    transition-timing-function: ease-in;
+    transition: all 0.7s
+}
+
+.nav.top{
+      opacity: 0.8;
+      /*background: rgb(88, 85, 94);*/
+}
+
+.nav__icon{
+    margin:10px;
+    width: 40px;
+    object-fit: contain;
+    transition-timing-function: ease-in;
+    transition: all 0.3s;
+    opacity:1;
+}
+
+.nav__logo{
+    margin:auto;
+    height: 2rem;
+    opacity:1;
+    display: block;
+}
+
+.nav__icon:hover{
+    margin:10px;
+    width: 47px;
+}
+
+.nav__title{
+    color: white;
+    flex:1;
+    margin-left: 1rem;
+}
