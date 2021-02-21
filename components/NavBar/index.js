@@ -8,6 +8,7 @@ import choffers_info from '../../shared/choffers.json';
 const NavBar = () => {
 
     const [top, setTop] = useState(true);
+    const [test, setTest] = useState('zzz');
     const [choffer, setChoffer] = useState(null);
     var choffers = []
 
@@ -20,11 +21,18 @@ const NavBar = () => {
         const keys = Object.keys(choffers_info);
         for (let key of keys){
             choffers.push(choffers_info[key])
-        }
+        } 
         let date = new Date()
-        let hour = date.getHours();
+        let UTCHour = date.getUTCHours();
+        let hour = UTCHour > 23 & UTCHour == 0 ? 1 : UTCHour + 1;
+        console.log(choffers)
+        console.log('hour:', hour)
         let choffer = choffers.filter((choffer) => {
-            return (choffer.availability[0] <= hour) && (choffer.availability[1] > hour)
+            console.log(choffer.availability)
+            console.log(choffer.availability[0] <= hour)
+            console.log(choffer.availability[1] > hour || choffer.availability[1] < choffer.availability[0])
+            console.log(choffer.availability[0] <= hour) && (choffer.availability[1] > hour || choffer.availability[1] < choffer.availability[0])
+            return (choffer.availability[0] <= hour) && (choffer.availability[1] > hour || choffer.availability[1] < choffer.availability[0])
         })
         return choffer[0]
     }
@@ -37,6 +45,10 @@ const NavBar = () => {
         return () => {
             window.removeEventListener('scroll', scroll);
         }
+    },[])
+
+    useEffect(() => {
+       setTest('555');
     },[])
 
     useEffect(() => {
@@ -58,7 +70,7 @@ const NavBar = () => {
                     </a>
                 </div>
             <div className={`${styles.flex}`}>
-                <p className={styles.nav__title}>Llámanos para pedir tu VTC</p>
+                <p className={styles.nav__title}>{`Llámanos para pedir tu VTC ${test}`}</p>
             </div>
             </div>
             <div>

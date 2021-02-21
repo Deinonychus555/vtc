@@ -44,10 +44,10 @@ const Home = () => {
                 </section>
                 <section className={styles.section}>
                     <div className={`${styles.content}`}>
-                    <header>
-                        <h2>Vehículo con las últimas prestaciones</h2>
-                    </header>
-                    <p>Acomodate en nuetro zzz y disfruta del viaje gracias a todas las comodidades que posee:
+                        <header>
+                            <h2>Vehículo con las últimas prestaciones</h2>
+                        </header>
+                        <p>Acomodate en nuetro zzz y disfruta del viaje gracias a todas las comodidades que posee:</p>
                         <ul>
                             <li>
                                 Asientos requinables
@@ -56,7 +56,6 @@ const Home = () => {
                                 Apoya cabeza
                             </li>
                         </ul>
-                    </p>
                     </div>
                     <div>
                         <img className={`${styles.image} ${styles.big}`} src="/images/comodidad.jpg" alt="Vehículo con las mejores prestaciones"/>
