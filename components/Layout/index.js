@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Layout.module.css';
 import NavBar from '../NavBar/index';
+import Header from '../Header';
 import Footer from '../Footer';
 
 const Layout = ({children}) => {

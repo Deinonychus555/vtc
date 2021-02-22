@@ -11,9 +11,8 @@ class MyDocument extends Document {
     return (
       <Html lang='es'>
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="canonical" href="https://vtcmadrid.netlify.app/"></link>
         </Head>
         <body>

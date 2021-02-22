@@ -7,7 +7,8 @@ const Home = () => {
     
     const icons = "🏅,👉,【,】,▷,◁, 👆, ☎";
     const title = "▷ VTC Madrid - Nunca pedir transporte fue tan sencillo"
-    const description = "Chofers amables y profesionales, se realizan traslados al aeropuerto y cualquier zona de Madrid. Contacta con nostros 👆"
+    const description = "Choffers amables y profesionales, se realizan traslados al aeropuerto y cualquier zona de Madrid. Contacta con nostros 👆"
+    
     return (
         <>
             <Meta title={title} description={description} />
@@ -69,7 +70,7 @@ const Home = () => {
                     <p>Garantizamos que el vehículo este desinfectado</p>
                     </div>
                     <div>
-                        <img className={`${styles.image} ${styles.small}`} src="/images/stop_coronavirus.jpg" alt="Medidas anti-covid"/>
+                        <img className={`${styles.image} ${styles.small}`} src="/images/stop_coronovirus.jpg" alt="Medidas anti-covid"/>
                     </div>
                 </section>
                 <section className={`${styles.section}`}>
