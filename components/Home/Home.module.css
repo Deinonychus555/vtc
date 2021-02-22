@@ -168,13 +168,6 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    flex-direction: column;
-  }
-
-  .header{
-    height: 50vh;
-  }
 
   .mainImage{
     background-image: url('/images/llegadas.jpg');
@@ -189,7 +182,7 @@
   }
   
   @supports(object-fit: cover){
-    .imagex{
+    .mainImage{
       height: 100%;
       object-fit: cover;
       object-position: center center;
@@ -213,6 +206,106 @@
     bottom: -45.5vh;
     font-size: 0.5rem;
     left:78vw;
+  }
+  /*
+  
+  .section.reverse{
+    flex-direction: row;  
+  }
+
+  .section{
+    margin-bottom: 1rem;
+  }
+
+  .content{
+    margin-bottom: 1rem;
+  }
+
+  .main{
+    padding-left:10rem;
+  }
+
+  .main header{
+    padding: auto, 1.rem 
+  }
+
+  h1 p.description {
+    font-size: 1.2rem;
+    padding: 0rem 0rem 
+  }
+
+  .image{
+    height:auto;
+    box-shadow: 5px 5px 3px grey
+  }
+
+  .image.big{
+    width: 350px;
+  }
+
+  .image.small{
+    width: 350px;
+  }
+  
+  .content{
+    margin: 1rem;
+    min-width: 95%;
+  }  
+
+  .section{
+    margin: 0 0 1rem 0;
+  }
+  
+*/
+
+}
+
+@media (max-width: 900px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .header{
+    height: 50vh;
+  }
+
+  .mainImage{
+    background-image: url('/images/llegadas.jpg');
+    background-color: #d4eefc; /*#f0f9ff;*/
+    background-size:cover;
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    height: 400px;
+  }
+  
+  @supports(object-fit: cover){
+    .mainImage{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  .title {
+    position: relative;
+    z-index: 1;
+    background: grey;
+    opacity: 0.9;
+    color: white;
+    border-radius: 20px;
+    padding:0;
+    top:-1rem;
+  }
+
+  .author{
+    z-index:1;
+    position:relative;
+    bottom: -95.5vh;
+    font-size: 0.5rem;
+    left:79vw;
   }
   
   .section.reverse{
