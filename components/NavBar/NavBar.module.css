@@ -52,7 +52,7 @@
 
     .nav__icon{
         margin:5px;
-        width: 35px;
+        width: px;
         object-fit: contain;
         transition-timing-function: ease-in;
         transition: all 0.3s;
