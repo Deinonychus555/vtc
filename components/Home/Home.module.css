@@ -303,8 +303,8 @@
     opacity: 0.9;
     color: white;
     border-radius: 20px;
-    padding:0.5rem;
-    top:1rem;
+    padding:0.3rem;
+    top:1.5rem;
   }
 
   .author{
@@ -312,7 +312,7 @@
     position:relative;
     bottom: -45.5vh;
     font-size: 0.5rem;
-    left:78vw;
+    left:80vw;
   }
 
 
