@@ -173,7 +173,7 @@
   }
 
   .header{
-    height:40vh;
+    height: 50vh;
   }
 
   .mainImage{
@@ -204,13 +204,13 @@
     color: white;
     border-radius: 20px;
     padding:0;
-    top:0rem;
+    top:2rem;
   }
 
   .author{
     z-index:1;
     position:relative;
-    bottom: -37.5vh;
+    bottom: -39.5vh;
     font-size: 0.5rem;
     left:78vw;
   }
