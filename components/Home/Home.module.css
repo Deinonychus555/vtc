@@ -214,9 +214,9 @@
   .author{
     z-index:1;
     position:relative;
-    bottom: -60vh;
+    bottom: -55vh;
     font-size: 0.5rem;
-    left:89vw;
+    left:90vw;
   }
   
   .section.reverse{
@@ -303,8 +303,8 @@
     opacity: 0.9;
     color: white;
     border-radius: 20px;
-    padding:0rem;
-    top:1rem;
+    padding:0.5rem;
+    top:1.5rem;
   }
 
   .author{
