@@ -6,7 +6,6 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 3rem;
-  
 }
 
 
@@ -20,6 +19,26 @@
 
 .section.reverse{
   flex-direction: row-reverse  
+}
+
+.mainImage{
+  background-image: url('/images/llegadas.jpg');
+  background-color: #d4eefc; /*#f0f9ff;*/
+  background-size:cover;
+  position: absolute;
+  top:0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+@supports(object-fit: cover){
+  .imagex{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
 }
 
 .content{
@@ -54,6 +73,27 @@
   width: 400px;
 }
 
+.header{
+  height:100vh;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  background: grey;
+  opacity: 0.9;
+  color: white;
+  border-radius: 20px;
+  padding:1rem;
+  top:5rem;
+}
+
+.author{
+  z-index:1;
+  position:relative;
+  bottom: -83vh;
+  left:70vw;
+}
 
 .title a {
   color: #0070f3;
@@ -132,6 +172,49 @@
     flex-direction: column;
   }
 
+  .header{
+    height:40vh;
+  }
+
+  .mainImage{
+    background-image: url('/images/llegadas.jpg');
+    background-color: #d4eefc; /*#f0f9ff;*/
+    background-size:cover;
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    height: 400px;
+  }
+  
+  @supports(object-fit: cover){
+    .imagex{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  .title {
+    position: relative;
+    z-index: 1;
+    background: grey;
+    opacity: 0.9;
+    color: white;
+    border-radius: 20px;
+    padding:0;
+    top:0rem;
+  }
+
+  .author{
+    z-index:1;
+    position:relative;
+    bottom: -37.5vh;
+    font-size: 0.5rem;
+    left:78vw;
+  }
+  
   .section.reverse{
     flex-direction: row;  
   }
@@ -178,6 +261,7 @@
   .section{
     margin: 0 0 1rem 0;
   }
+  
 
 
 }

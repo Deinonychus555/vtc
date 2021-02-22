@@ -13,13 +13,17 @@ const Home = () => {
         <>
             <Meta title={title} description={description} />
             <div className={`${styles.grid}`}>
-                <header>
+                <header className={`${styles.header}`}>
+                    <div className={styles.mainImage}>
+                    </div>
+                    <address className={styles.author}><a rel="author" className="" href="#">Marcelo Sastre</a></address> 
                     <h1 className={styles.title}> 
                         <span>
                             VTC
                         </span>
                         <p className={styles.description}>Ahora puedes pedir tu VTC para traslados dentro de Madrid o recogidas en el aeropuerto.</p>
                     </h1>
+                    
                 </header>
                 <section className={styles.section}>
                     <div className={`${styles.content}`}>

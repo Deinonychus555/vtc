@@ -18,7 +18,7 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="VTC Madrid" />
           <meta property="og:image" content="/images/VTC_Madrid.jpg" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="canonical" href="https://vtcmadrid.netlify.app/"></link>
+          <link rel="canonical" href="https://vtcmadrid.netlify.app/" />
           <meta property="twiter:card" content="summary_large_image" />
           <meta property="twiter:image" content="/images/VTC_Madrid.jpg" />
         </Head>
