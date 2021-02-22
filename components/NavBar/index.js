@@ -34,7 +34,7 @@ const NavBar = () => {
         <div className={`${styles.nav} ${styles.flex} ${top && styles.top}` }>
             <div className={`${styles.flex}`}>
                 <div className={`${styles.flex}`}>
-                    <a href={`tel:+${choffer_?.phone}`} target='_blank' title={`Llamar a ${choffer_?.name}`}>
+                    <a href={`tel:${choffer_?.phone}`} target='_blank' title={`Llamar a ${choffer_?.name}`}>
                         <img className={`${styles.nav__icon}`}  src={'/images/icon_phone.png'} alt="teléfono de contacto vtc"/>
                     </a>
                     <a href={`https://api.whatsapp.com/send?phone=${choffer_?.phone}`} target='_blank' title={`Escribir a ${choffer_?.name}`}>

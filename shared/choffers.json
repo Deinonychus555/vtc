@@ -1,12 +1,12 @@
 {
     "Antonio": {
         "name": "Antonio",
-        "phone": "+34664244370",
+        "phone": "+3499999999",
         "availability": [23, 11]
     },
     "Juanma": {
         "name": "Juanma",
-        "phone": "+34664244370",
+        "phone": "+3411111111",
         "availability": [11, 23]
     }
     
