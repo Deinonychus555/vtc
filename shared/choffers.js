@@ -1,6 +1,8 @@
 import choffers_info from './choffers.json';
 
-const getChoffer = () => {
+export const getChoffers = () => choffers_info;
+
+export const getChoffer = () => {
     /*
     let i = Math.floor(Math.random() * 2)
     return choffers[keys[i]];
@@ -23,5 +25,3 @@ const getChoffer = () => {
     })
     return choffer[0]
 }
-
-export default getChoffer;

@@ -11,7 +11,7 @@
     height: 65px;
     z-index: 1;
     justify-content:space-between;
-    background-color: #0090d9;
+    background-color: #0351B8; /*#0090d9;*/
     transition-timing-function: ease-in;
     transition: all 0.7s
 }

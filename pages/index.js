@@ -1,6 +1,6 @@
 import Home from '../components/Home';
 import Layout from '../components/Layout';
-import getChoffer from '../shared/choffers';
+import { getChoffer } from '../shared/choffers';
 
 export default function App() {
   return (
