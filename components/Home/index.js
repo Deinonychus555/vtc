@@ -16,7 +16,7 @@ const Home = () => {
                 <header className={`${styles.header}`}>
                     <div className={styles.mainImage}>
                     </div>
-                    <address className={styles.author}><a rel="author" className="" href="#">Marcelo Sastre</a></address> 
+                     
                     <h1 className={styles.title}> 
                         <span>
                             VTC
@@ -30,10 +30,10 @@ const Home = () => {
                         <header>
                             <h2>¿Por qué elegirnos a nosotros?</h2>
                         </header>
-                        <p>Nuestro principal compromiso es que el viajero se sienta cómodo en todo momento, ¿te apetece poner música? pués conectate al bluetoth</p>
+                        <p>Nuestro principal compromiso es que el viajero se sienta cómodo en todo momento y disfute del viaje. Relajate en nuestro lexus, ¿te apetece poner música? pués conectate a nuestro bluetooth o también puedes acceder a internet desde tu móvil conectándote a nuestra wifi.</p>
                     </div>
                     <div>
-                        <img className={`${styles.image} ${styles.big}`} src="/images/coche.jpg" alt="Vehículo seguro"/>
+                        <img className={`${styles.image} ${styles.big}`} src="/images/lexusesh3002.jpg" alt="Vehículo seguro"/>
                     </div>
                 </section>
                 <section className={`${styles.section} ${styles.reverse}`}>
@@ -41,10 +41,7 @@ const Home = () => {
                     <header>
                         <h2>Choffers profesionales</h2>
                     </header>
-                    <p>Totalmente cercanos, con nuestro permiso en vigor....</p>
-                    </div>
-                    <div>
-                        <img className={`${styles.image} ${styles.big}`} src="/images/choffers.jpg" alt="Choffers profesionales" />
+                    <p>Totalmente cercanos y de buen trato. Haremos todo lo posible para hacerte el viaje más ameno.</p>
                     </div>
                 </section>
                 <section className={styles.section}>
@@ -52,7 +49,7 @@ const Home = () => {
                         <header>
                             <h2>Vehículo con las últimas prestaciones</h2>
                         </header>
-                        <p>Acomodate en nuetro zzz y disfruta del viaje gracias a todas las comodidades que posee:</p>
+                        <p>Acomodate en nuetro lexus es h 200 y disfruta del viaje gracias a todas las comodidades que posee:</p>
                         <ul>
                             <li>
                                 Asientos requinables
@@ -63,7 +60,7 @@ const Home = () => {
                         </ul>
                     </div>
                     <div>
-                        <img className={`${styles.image} ${styles.big}`} src="/images/comodidad.jpg" alt="Vehículo con las mejores prestaciones"/>
+                        <img className={`${styles.image} ${styles.big}`} src="/images/interior_comodo_parte_delantera.png" alt="Vehículo cómodo con las mejores prestaciones"/>
                     </div>
                 </section>
                 <section className={`${styles.section} ${styles.reverse}`}>
@@ -71,10 +68,21 @@ const Home = () => {
                     <header>
                         <h2>Medidas Covid</h2>
                     </header>
-                    <p>Garantizamos que el vehículo este desinfectado</p>
+                    <p>Contamos con una máquina de ozono para desinfectar el vehículo y proteger del covid.</p>
                     </div>
                     <div>
                         <img className={`${styles.image} ${styles.small}`} src="/images/stop_coronovirus.jpg" alt="Medidas anti-covid"/>
+                    </div>
+                </section>
+                <section className={`${styles.section}`}>
+                    <div className={`${styles.content}`}>
+                        <header>
+                            <h2>Desplazamientos:</h2>
+                        </header>
+                        <p>Hacemos desplazamientos tanto provinciales, interprovinciales, como dentro de la Comunidad Europea.</p>
+                    </div>
+                    <div>
+                        <img className={`${styles.image} ${styles.small}`} src="/images/union_europea.jpg" alt="Desplazamientos en la unión europea"/>
                     </div>
                 </section>
                 <section className={`${styles.section}`}>
@@ -84,9 +92,10 @@ const Home = () => {
                         </header>
                         <p>Precios competitivos.</p>
                         <ul>
-                            <li>{'x€/kilómetro           '}</li>
-                            <li>y€/minuto</li>
+                            <li>Precio por kilómetro</li>
+                            <li>Precio por minuto</li>
                         </ul>
+                        <p>Podrás establecer el precio de antemano con nostros.</p>
                     </div>
                     <div></div>
                 </section>
