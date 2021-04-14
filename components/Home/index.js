@@ -30,7 +30,7 @@ const Home = () => {
                         <header>
                             <h2>¿Por qué elegirnos a nosotros?</h2>
                         </header>
-                        <p>Nuestro principal compromiso es que el viajero se sienta cómodo en todo momento y disfute del viaje. Relajate en nuestro lexus, ¿te apetece poner música? pués conectate a nuestro bluetooth o también puedes acceder a internet desde tu móvil conectándote a nuestra wifi.</p>
+                        <p>Nuestro principal compromiso es que el viajero se sienta cómodo en todo momento y disfrute del viaje. Relajate en nuestro lexus, ¿te apetece poner música? pués conectate a nuestro bluetooth o también puedes acceder a internet desde tu móvil conectándote a nuestra wifi.</p>
                     </div>
                     <div>
                         <img className={`${styles.image} ${styles.big}`} src="/images/lexusesh3002.jpg" alt="Vehículo seguro"/>
@@ -49,7 +49,7 @@ const Home = () => {
                         <header>
                             <h2>Vehículo con las últimas prestaciones</h2>
                         </header>
-                        <p>Acomodate en nuetro lexus es h 200 y disfruta del viaje gracias a todas las comodidades que posee:</p>
+                        <p>Acomodate en nuetro lexus es h 300 y disfruta del viaje gracias a todas las comodidades que posee:</p>
                         <ul>
                             <li>
                                 Asientos requinables
@@ -95,7 +95,7 @@ const Home = () => {
                             <li>Precio por kilómetro</li>
                             <li>Precio por minuto</li>
                         </ul>
-                        <p>Podrás establecer el precio de antemano con nostros.</p>
+                        <p>Podrás establecer el precio de antemano con nos0tros.</p>
                     </div>
                     <div></div>
                 </section>
