@@ -22,7 +22,7 @@
 }
 
 .mainImage{
-  background-image: url('/images/lexusesh300.jpeg');
+  background-image: url('/images/lexusesh300.jpg');
   background-color: #d4eefc; /*#f0f9ff;*/
   background-size:cover;
   position: absolute;
@@ -34,7 +34,7 @@
 }
 
 @supports(object-fit: cover){
-  .mainIimage{
+  .mainImage{
     height: 100%;
     object-fit: cover;
     object-position: center center;
@@ -179,7 +179,7 @@
   }
 
   .mainImage{
-    background-image: url('/images/lexusesh300.jpeg');
+    background-image: url('/images/lexusesh300.jpg');
     background-color: #d4eefc; /*#f0f9ff;*/
     background-size:cover;
     position: absolute;
@@ -267,13 +267,12 @@
   }
   
 
-
 }
 
 @media (max-width: 600px){
 
   .mainImage{
-    background-image: url('/images/lexusesh300.jpeg');
+    background-image: url('/images/lexusesh300_movil.jpg');
     background-color: #d4eefc; /*#f0f9ff;*/
     background-size:cover;
     position: absolute;
@@ -314,7 +313,6 @@
     font-size: 0.5rem;
     left:80vw;
   }
-
 
 
   .image.big{

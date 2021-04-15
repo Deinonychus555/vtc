@@ -21,7 +21,7 @@ const Home = () => {
                         <span>
                             VTC
                         </span>
-                        <p className={styles.description}>Ahora puedes pedir tu VTC para traslados dentro de Madrid o recogidas en el aeropuerto.</p>
+                        <p className={styles.description}>Ahora puedes pedir tu VTC para traslados dentro de Madrid o recogidas en el aeropuerto. No dudes en contactar con nosotros, estamos disponibles 24 horas.</p>
                     </h1>
                     
                 </header>
@@ -30,10 +30,11 @@ const Home = () => {
                         <header>
                             <h2>¿Por qué elegirnos a nosotros?</h2>
                         </header>
-                        <p>Nuestro principal compromiso es que el viajero se sienta cómodo en todo momento y disfrute del viaje. Relajate en nuestro lexus, ¿te apetece poner música? pués conectate a nuestro bluetooth o también puedes acceder a internet desde tu móvil conectándote a nuestra wifi.</p>
+                        <p>Nuestro principal compromiso es que te sientas cómodo en todo momento y disfrutes del viaje.</p>
+                        <p>Relájate en nuestro confortable Lexus ES, ¿te apetece poner música? pués conectate a nuestro bluetooth o también puedes acceder a internet desde tu móvil conectándote a nuestra wifi. Dinos que música te gusta y te la pondremos</p>
                     </div>
                     <div>
-                        <img className={`${styles.image} ${styles.big}`} src="/images/lexusesh3002.jpg" alt="Vehículo seguro"/>
+                        <img className={`${styles.image} ${styles.big}`} src="/images/lexusesh3002.jpeg" alt="Vehículo seguro"/>
                     </div>
                 </section>
                 <section className={`${styles.section} ${styles.reverse}`}>
@@ -95,7 +96,7 @@ const Home = () => {
                             <li>Precio por kilómetro</li>
                             <li>Precio por minuto</li>
                         </ul>
-                        <p>Podrás establecer el precio de antemano con nos0tros.</p>
+                        <p>Podrás establecer el precio de antemano con nosotros.</p>
                     </div>
                     <div></div>
                 </section>
